@@ -1,0 +1,8 @@
+<h1>Tea Blog</h1>
+<p>Diving into the world of tea, flavors, and traditions.</p>
+{{ range .Pages }}
+    <article>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p>{{ .Summary }}</p>
+    </article>
+{{ end }}
