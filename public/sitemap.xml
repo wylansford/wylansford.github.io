@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://lansford.dev/</loc>
     <lastmod>2024-11-18T16:24:53-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tea/</loc>
+    <loc>https://lansford.dev/tea/</loc>
     <lastmod>2024-11-18T16:24:53-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tech/</loc>
+    <loc>https://lansford.dev/tech/</loc>
     <lastmod>2024-11-18T16:24:46-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://lansford.dev/about/</loc>
     <lastmod>2024-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://lansford.dev/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://lansford.dev/tags/</loc>
   </url>
 </urlset>
