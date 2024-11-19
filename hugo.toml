@@ -1,6 +1,6 @@
 baseURL = "https://wylansford.github.io/"
 languageCode = "en-us"
-title = "Wyatt Lansford's Blog"
+title = "Welcome!"
 theme = "m10c"
 
 [markup]
