@@ -1,4 +1,4 @@
-name: Deploy Hugo site
+name: Deploy static site
 
 on:
   push:
@@ -11,19 +11,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-        with:
-          submodules: true
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-
-      - name: Build
-        run: hugo
-
-      - name: Ensure CNAME file exists
-        run: echo 'lansford.dev' > ./public/CNAME
+      - name: Create public directory
+        run: |
+          mkdir -p public
+          cp -r *.html *.css *.jpg blog/ public/
+          echo 'lansford.dev' > ./public/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
